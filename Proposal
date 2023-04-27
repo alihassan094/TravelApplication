@@ -1,0 +1,12 @@
+1) signup/loging will need an authorization API which stores the new data in the database and authenticate at the time of login, SQL database will be suitable for that
+2) Either we can define categories or we can assign the places on the basis of tags (historical, hill stations, etc) "second one is more suitable in my opinion, what do you say?"
+3) As all the places will be saved that are in Karnataka, the similarity index will be calculated from tags and the places will be recommended. In the case of defined categories, we can simply show the places associated with the categories
+4) Google map api will be linked to that, the saved recomended places will already have the pinned location. When the user opens it, the google map API will be redirect the user to map where the nearby places will pop up "Nearby places should be relevant or not?"
+5) The new reviews can be easily added in the CSV but not clear that if the google reviews should also be included in the process or not "Do you want to include the google reviews of the places as well?" "And why csv, they can be added in json file which will be saved in database"
+"The last selections of the user should be saved?"
+
+
+Challenges:
+1) To create the database of reviews won't be an issue but should we include the google reviews or just the reviews given by this app users?
+2) The pictures can be handled through database in backend, that's why database will be more helpful in my opinion, than CSV
+3) Which language and platform you have been using before?
