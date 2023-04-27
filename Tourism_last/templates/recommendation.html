@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+    <head>
+        <html lang="en" dir="ltr">
+        <meta charset="utf-8">
+        <title>Recommendations</title>
+        <style type="text/css">    
+          body
+          {
+            border: 2px solid black;
+            padding: 0px;
+            background: url("https://cdn.dribbble.com/users/21546/screenshots/2183089/open-uri20150806-3-1r3hnu1");
+            background-repeat: no-repeat;
+            background-size: cover; 
+            background-position: center center;
+            } 
+        </style>  
+    </head>
+
+    <body bgcolor="Lavender">
+        {% extends "template.html" %}
+        {% block content %}
+            <h1><font color="midnightblue"><strong>Here are the top-10 movies that you'll most probably like:</strong></font></h1>
+            <p>{{ table }}</p>
+        {% endblock %}
+    </body>
+</html>
